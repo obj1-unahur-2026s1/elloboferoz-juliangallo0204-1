@@ -12,10 +12,14 @@ object feroz {
     method sufrirCrisis() {
         peso = pesoInicial
     }
-    method comerAlimento(pesoDelAlimento) {
-        peso = peso + (pesoDelAlimento * 10 / 100)
+    method comer(pesoDelElemento) {
+        peso = peso + (pesoDelElemento * 10 / 100)
     }
     method correr() {
         self.cambiarPeso(-1)
+    }
+    var disfrazadoDe = null
+    method disfrazarseDe(unaPersona) {
+        disfrazadoDe = unaPersona
     }
 }
