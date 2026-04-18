@@ -1,6 +1,6 @@
 object caperucita {
-    var peso = 60
-    method peso() = peso + canasta.peso()
+    var pesoActual = 60
+    method peso() = pesoActual + canasta.peso()
 }
 
 object canasta {

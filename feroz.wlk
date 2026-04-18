@@ -18,8 +18,4 @@ object feroz {
     method correr() {
         self.cambiarPeso(-1)
     }
-    var disfrazadoDe = null
-    method disfrazarseDe(unaPersona) {
-        disfrazadoDe = unaPersona
-    }
 }
